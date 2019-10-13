@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sally Worldwide</title>
+
+<style>
+	header {
+		height: 5%;
+		padding: 20px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		background-color: #AD1457;
+		text-align: center;
+	}
+		
+	#menu{	
+		display: inline;
+		list-style-type: none;
+	}
+	
+	#menu a:link{color: #F8BBD0; text-decoration:none;}
+	#menu a:visited{color: #F8BBD0; text-decoration:none;}
+	#menu a:hover{color: white;}
+	
+	.page{
+		position: absolute;
+		width: 100%;
+		display: table-cell;
+	}
+	
+	#Bucket {
+		width: 30%;
+		margin-top: 100px;
+		margin-left: 30px;
+		display: table-cell;
+		transition: all ease 1s;
+		float: left;
+	}
+	#Bucket:hover{
+		transform: rotate(90deg);
+	}
+	
+	#list{
+		padding: 60px;
+		width: 30%;
+		display: table-cell;
+		
+	}
+	
+	#nav{
+		width: 10%;
+		padding: 15px;
+		display: table-cell;		
+		height: 70px;
+		border-radius: 10%;
+		background-color: #F48FB1;
+		text-align: left;
+		float: right;
+	}
+	#nav a:link{color: #F8BBD0; text-decoration:none;}
+	#nav a:visited{color: #F8BBD0; text-decoration:none;}
+	#nav a:hover{color: white;}
+	
+	#US a:link{color: #AD1457; text-decoration:none;}
+	#US a:visited{color: #AD1457; text-decoration:none;}
+	#US a:hover{color: #F8BBD0;}
+	
+</style>
+
+</head>
+
+
+<header>
+	<div id="menu">
+	<a href="HW1_Bucket.html">Bucket List</a>&nbsp&nbsp&nbsp&nbsp
+	<a href="HW1_Exchange.html">Exchange Life</a>&nbsp&nbsp&nbsp&nbsp
+	<a href="HW1_Commuter.html">Commmuter</a>&nbsp&nbsp&nbsp&nbsp
+	<a href="HW1_Double.html">Double Major</a>&nbsp&nbsp&nbsp&nbsp
+	<a href="HW1_Travel.html">Travel</a>&nbsp&nbsp&nbsp&nbsp
+	</div>
+</header>
+
+
+<body>
+	<table class="page">
+	<div id="Bucket">	
+		<h3>Put Mouse on Bucket!!</h3>
+		<img src="bucket2.png"></img></br>
+		<em>Wish Bucket</em>
+	</div>
+	<div id="list">
+		<ol>
+		<h2>Bucket List</h2>
+			<li>Write a novel of at least 30 pages.</li>
+			<li>Live in Paris for a month.</li>
+			<li>Travel guide Europe for my parents.</li>
+			<li>Build my own laptop.</li>
+			<li id="US"><a href="HW1_travel.html">Get back to where I've lived in US.</a></li>
+			<li>Getting a 120 full mark on TOEFL.</li>
+		</ol>
+		
+		<form>
+		<h2>Do you have a Bucket List?</h2>
+		<textarea name="comment" rows="20" cols="50"></textarea></br>
+		<input type="submit" value="Send"/>
+		<input type="reset" value="Reset"/>
+		</form>
+	</div>
+	<div id="nav">
+		Flag</br>
+		<a href="HW1_main.html">Home</a></br>
+		<a href="HW1_iphone.html">Contact</a>
+	</div>
+	</table>
+
+
+</body>
+</html>
