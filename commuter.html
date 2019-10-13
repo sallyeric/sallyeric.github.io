@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sally Worldwide</title>
+
+<style>
+	header {
+		height: 5%;
+		padding: 20px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		background-color: #AD1457;
+		text-align: center;
+	}
+		
+	#menu{	
+		display: inline;
+		list-style-type: none;
+	}
+	
+	#menu a:link{color: #F8BBD0; text-decoration:none;}
+	#menu a:visited{color: #F8BBD0; text-decoration:none;}
+	#menu a:hover{color: white;}
+	
+	.page{
+		position: absolute;
+		width: 100%;
+		
+	}	
+	
+	nav{
+		width: 10%;
+		padding: 15px;
+		display: table-cell;		
+		height: 70px;
+		border-radius: 10%;
+		background-color: #F48FB1;
+		text-align: left;
+		float: right;
+	}
+	nav a:link{color: #F8BBD0; text-decoration:none;}
+	nav a:visited{color: #F8BBD0; text-decoration:none;}
+	nav a:hover{color: white;}
+	
+	#dot_main{
+		position: relative;
+		width: 1024px; margin: auto;
+		text-align: center;
+		z-index:2;
+	}
+	
+	#circle4{
+		float: left;
+		width: 30px; height: 30px;
+		border-radius: 50%;
+		margin-left: 12.5%; margin-right: 5%; 
+		margin-top: 10%; 
+		position: absolute;
+		background-color: #AD1457;
+		opacity: 0.7;
+		text-align: center;
+		font-size:150%;
+		-webkit-animation-name: bounce;
+		-webkit-animation-iteration-count:7;
+		-webkit-animation-duration: 3s;
+	}
+	
+	@-webkit-keyframes bounce{
+		0%{
+		top: 0px; 
+		-webkit-animation-timing-function: ease-out;
+		}
+		7%{
+		top: 25px; 
+		left: 50px;
+		-webkit-animation-timing-function: ease-out;
+		}
+		14%{
+		top: 0px; 
+		left: 100px;
+		-webkit-animation-timing-function: ease-out;
+		}
+		21%{
+		top: 25px; 
+		left: 150px;
+		-webkit-animation-timing-function: ease-out;
+		}
+		28%{
+		top: 0px;
+		left: 200px;
+		-webkit-animation-timing-function: ease-in;
+		}
+		35%{
+		top: 25px; 
+		left: 250px;
+		-webkit-animation-timing-function: ease-out;
+		}
+		42%{
+		top: 0px;
+		left: 300px;
+		-webkit-animation-timing-function: ease-in;
+		}
+		49%{
+		top: 25px; 
+		left: 350px;
+		-webkit-animation-timing-function: ease-out;
+		}
+		56%{
+		top: 0px;
+		left: 400px;
+		-webkit-animation-timing-function: ease-in;
+		}
+		63%{
+		top: 25px; 
+		left: 450px;
+		-webkit-animation-timing-function: ease-out;
+		}
+		70%{
+		top: 0px;
+		left: 500px;
+		-webkit-animation-timing-function: ease-in;
+		}
+		77%{
+		top: 25px; 
+		left: 550px;
+		-webkit-animation-timing-function: ease-out;
+		}
+		84%{
+		top: 0px;
+		left: 600px;
+		-webkit-animation-timing-function: ease-in;
+		}
+		91%{
+		top: 25px; 
+		left: 650px;
+		-webkit-animation-timing-function: ease-out;
+		}
+		98%{
+		top: 0px;
+		left: 700px;
+		-webkit-animation-timing-function: ease-in;
+		}
+	}
+	
+	#metro_main{
+		position: relative;
+		width: 1024px; margin: auto;
+		text-align: center;
+		z-index:1;
+	}
+
+	#info_main{display: table-cell; width: 100%;}
+	#about{display: table-cell; width:50%;}
+	#commute{display: table-cell; width:50%;}
+	
+</style>
+
+</head>
+
+
+<header>
+	<div id="menu">
+	<a href="HW1_Bucket.html">Bucket List</a>&nbsp&nbsp&nbsp&nbsp
+	<a href="HW1_Exchange.html">Exchange Life</a>&nbsp&nbsp&nbsp&nbsp
+	<a href="HW1_Commuter.html">Commmuter</a>&nbsp&nbsp&nbsp&nbsp
+	<a href="HW1_Double.html">Double Major</a>&nbsp&nbsp&nbsp&nbsp
+	<a href="HW1_Travel.html">Travel</a>&nbsp&nbsp&nbsp&nbsp
+	</div>
+</header>
+
+
+<body>
+	</br></br></br><h1>How I get to <em>SKKU</em></h1>
+	
+	<div id="dot_main">
+	<div id="circle4"></div>
+	</div>
+	
+	<div id="metro_main">
+	<img src="metro.png" width="800" height="100"></img>
+	</div>
+	
+	<div id="info_main">
+	<div id="about"></br></br>
+	<h2>About Yeongtong</h2>
+	<ul>
+	<li>I've lived here since 2007</li>
+	<li>Location of Samsung</li>
+	<li>5 min walk to Kyunghee University Intl. Campus</li>
+	</ul>
+	</div>
+	<div id="commute"></br></br>
+	<h2>How I commute?</h2>
+	<ul>
+	<li>7 stops</li>
+	<li>takes around 1 hour</li>
+	<li>1 transfer at Suwon Station</li>
+	</ul>
+	</div>
+	</div>
+	
+
+	
+	<table class="page">
+
+	<nav>
+		Flag</br>
+		<a href="HW1_main.html">Home</a></br>
+		<a href="HW1_iphone.html">Contact</a>
+	</nav>
+	
+	</table>
+
+</body>
+</html>
